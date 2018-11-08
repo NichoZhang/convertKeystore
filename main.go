@@ -8,8 +8,10 @@ import (
 	"github.com/meitu/go-ethereum/crypto"
 )
 
+const filePath = "keystore/account1.json"
+
 func main() {
-	keyjson, err := ioutil.ReadFile("keystore/account1.json")
+	keyjson, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		panic(err)
 	}
