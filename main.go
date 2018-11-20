@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"io/ioutil"
 
-	"github.com/meitu/go-ethereum/accounts/keystore"
-	"github.com/meitu/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 const filePath = "keystore/account1.json"
